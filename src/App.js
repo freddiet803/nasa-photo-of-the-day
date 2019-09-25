@@ -1,5 +1,6 @@
-import React from "react";
-import "./App.css";
+import React from 'react';
+import './App.css';
+import NasaPhoto from './PhotoOfDayComponents/NasaPhotoOfDay.js';
 
 function App() {
   return (
@@ -8,6 +9,9 @@ function App() {
         Read through the instructions in the README.md file to build your NASA
         app! Have fun 🚀!
       </p>
+      <div>
+        <NasaPhoto />
+      </div>
     </div>
   );
 }
