@@ -1,4 +1,5 @@
 import React from 'react';
+import '../App.css';
 
 export default function NasaApodCard(props) {
   return (
@@ -10,7 +11,7 @@ export default function NasaApodCard(props) {
           alert('clicked pic');
         }}
       >
-        <img src={props.url} />
+        <img src={props.url} alt="The Picture" />
       </button>
       <p>{props.explanation}</p>
     </div>
