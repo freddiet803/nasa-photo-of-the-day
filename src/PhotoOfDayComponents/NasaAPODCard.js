@@ -28,7 +28,7 @@ export default function NasaApodCard(props) {
     //   <p>{props.explanation}</p>
     // </div>
     <Row>
-      <Col sm="12" md={{ size: 8, offset: 2 }}>
+      <Col sm={{ size: 6, offset: 3 }} md={{ size: 8, offset: 2 }}>
         <Card>
           <CardBody>
             <CardTitle>{props.title}</CardTitle>
